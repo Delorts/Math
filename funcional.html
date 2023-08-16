@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion Funcional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo3"><u>Programación Funcional</u></h1>
+    <div class="caja-parrafos">
+        <p class="parrafo">
+            Es un modelo de programación basado totalmente en la implementacion de funciones para segmentar las tareas a realizar.     
+        </p>
+        <p class="parrafo2">
+            Aquí podras seleccionar una figura de la cual desees obtener el valor de su área en función de los valores que ingreses. 
+        </p>
+
+    </div>
+    
+    <h2 class="subtitulo">Seleccione un área a calcular:</h2>
+
+    <div class="contenedor">
+        <button class="btn" type="submit" id="Cuadrado">Cuadrado</button>
+        <button class="btn" type="submit" id="Triangulo">Triángulo</button>
+        <button class="btn" type="submit" id="Circulo">Círculo</button>
+        <button class="btn" type="submit" id="Rectangulo">Rectángulo</button>
+        <a href="main.html">
+            <button class="btn" type="submit">Volver</button>
+        </a>
+    </div>
+    <div class="caja2">
+        <img src="function.png" alt="" width="450px" height="200px">
+    </div>
+   
+    <div class="contenedor-cuadrado">
+        <div class="modal">
+            
+            <div class="caja-parrafos2">
+                <h3 class="sub">Ingresar dimensiones del cuadrado</h3>
+            </div>
+            <form action="" id="formulario">
+                <input type="number" placeholder="Magnitud del lado" id="lado">
+                <input type="reset" value="Borrar" class="btn">
+                <button class="btn" type="submit" id="ocultar-cuadrado">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="contenedor-triangulo">
+        <div class="modal">
+            
+            <div class="caja-parrafos2">
+                <h3 class="sub">Ingresar dimensiones del Triángulo</h3>
+            </div>
+            <form action="" id="formulario">
+                <input type="number" placeholder="Magnitud de la base" id="base">
+                <input type="number" placeholder="Magnitud de la altura" id="altura">
+                <input type="reset" value="Borrar" class="btn">
+                <button class="btn" type="submit" id="ocultar-triangulo" >ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="contenedor-rectangulo">
+        <div class="modal">
+            
+            <div class="caja-parrafos2">
+                <h3 class="sub">Ingresar dimensiones del Rectángulo</h3>
+            </div>
+            <form action="" id="formulario">
+                <input type="number" placeholder="Magnitud de la base" id="baseR">
+                <input type="number" placeholder="Magnitud de la altura" id="alturaR">
+                <input type="reset" value="Borrar" class="btn">
+                <button class="btn" type="submit" id="ocultar-rectangulo">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    <div class="contenedor-circulo">
+        <div class="modal">
+            
+            <div class="caja-parrafos2">
+                <h3 class="sub">Ingresar dimensiones del círculo</h3>
+            </div>
+            <form action="" id="formulario">
+                <input type="number" placeholder="Magnitud del radio" id="radio">
+                <input type="reset" value="Borrar" class="btn">
+                <button class="btn" type="submit" id="ocultar-circulo" >ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="fun.js"></script>
+</html>
